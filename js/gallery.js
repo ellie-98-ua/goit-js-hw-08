@@ -48,7 +48,7 @@ const images = [
 
 //галерея
 
-const gallery = document.querySelector('.ul-gallery');
+const gallery = document.querySelector('.gallery');
 
 const markup = images
   .map(
@@ -70,8 +70,6 @@ const markup = images
 gallery.innerHTML = markup;
 
 // делегування + модалка
-
-const gallery = document.querySelector('.ul-gallery');
 
 gallery.addEventListener('click', event => {
   event.preventDefault();
